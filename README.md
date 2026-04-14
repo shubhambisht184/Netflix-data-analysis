@@ -12,23 +12,25 @@ The dataset contains structured metadata for Netflix Movies and TV Shows, includ
 
 Content Type (Movie / TV Show)
 
-Title
+. Show ID
 
-Director
+. Title
 
-Cast
+. Director
 
-Country of Production
+. Cast
 
-Date Added
+. Country of Production
 
-Release Year
+. Date Added
 
-Rating
+. Release Year
 
-Duration
+. Rating
 
-Genres
+. Duration
+
+. Genres
 
 Description
 
@@ -73,23 +75,37 @@ Top content-producing countries
 Genre distribution modeling
 
 Director & Actor frequency analysis
+
 India-specific release trend analysis
+
 Keyword-driven content classification
+
 4️⃣ Results & Key Insights
+
 Identified dominant content type patterns
+
 Extracted rating trends across content categories
+
 Quantified top contributing countries
+
 Analyzed actor participation in Indian productions
+
 Measured year-over-year content growth
+
 Classified content for moderation-style insights
+
 5️⃣ Business & Analytical Impact
 
 This project demonstrates the ability to:
 
 Transform raw datasets into structured analytical insights
+
 Handle semi-structured relational data efficiently
+
 Apply advanced SQL techniques in practical scenarios
+
 Design scalable, production-style queries
+
 Generate business-focused analytical outputs
 
 It reflects strong database fundamentals, analytical reasoning, and industry-aligned SQL expertise.
