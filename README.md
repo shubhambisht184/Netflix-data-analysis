@@ -32,7 +32,7 @@ Content Type (Movie / TV Show)
 
 * Genres
 
-Description
+* Description
 
 It includes multi-valued categorical fields and inconsistent date formats, reflecting real-world data challenges.
 
@@ -40,73 +40,73 @@ It includes multi-valued categorical fields and inconsistent date formats, refle
 
 🔹 Data Preparation
 
-Normalized multi-value columns using STRING_TO_ARRAY and UNNEST
+* Normalized multi-value columns using STRING_TO_ARRAY and UNNEST
 
-Standardized date formats with conditional parsing
+* Standardized date formats with conditional parsing
 
-Handled NULL values and missing attributes
+* Handled NULL values and missing attributes
 
-Implemented keyword-based classification using CASE logic
+* Implemented keyword-based classification using CASE logic
 
 🔹 Advanced SQL Concepts Applied
 
-Aggregations & Grouped Analysis
+* Aggregations & Grouped Analysis
 
-Window Functions (RANK() with PARTITION BY)
+* Window Functions (RANK() with PARTITION BY)
 
-Common Table Expressions (CTEs)
+* Common Table Expressions (CTEs)
 
-Subqueries & Derived Tables
+* Subqueries & Derived Tables
 
-String Manipulation Functions
+* String Manipulation Functions
 
-Date Transformations & Interval Filtering
+* Date Transformations & Interval Filtering
 
-Conditional Categorization
+* Conditional Categorization
 
 🔹 Analytical Modules
 
-Content distribution (Movies vs TV Shows)
+* Content distribution (Movies vs TV Shows)
 
-Rating dominance by content type
+* Rating dominance by content type
 
-Top content-producing countries
+* Top content-producing countries
 
-Genre distribution modeling
+* Genre distribution modeling
 
-Director & Actor frequency analysis
+* Director & Actor frequency analysis
 
-India-specific release trend analysis
+* India-specific release trend analysis
 
-Keyword-driven content classification
+* Keyword-driven content classification
 
 4️⃣ Results & Key Insights
 
-Identified dominant content type patterns
+* Identified dominant content type patterns
 
-Extracted rating trends across content categories
+* Extracted rating trends across content categories
 
-Quantified top contributing countries
+* Quantified top contributing countries
 
-Analyzed actor participation in Indian productions
+* Analyzed actor participation in Indian productions
 
-Measured year-over-year content growth
+* Measured year-over-year content growth
 
-Classified content for moderation-style insights
+* Classified content for moderation-style insights
 
 5️⃣ Business & Analytical Impact
 
-This project demonstrates the ability to:
+* This project demonstrates the ability to:
 
-Transform raw datasets into structured analytical insights
+* Transform raw datasets into structured analytical insights
 
-Handle semi-structured relational data efficiently
+* Handle semi-structured relational data efficiently
 
-Apply advanced SQL techniques in practical scenarios
+* Apply advanced SQL techniques in practical scenarios
 
-Design scalable, production-style queries
+* Design scalable, production-style queries
 
-Generate business-focused analytical outputs
+* Generate business-focused analytical outputs
 
 It reflects strong database fundamentals, analytical reasoning, and industry-aligned SQL expertise.
 
