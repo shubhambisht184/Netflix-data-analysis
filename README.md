@@ -12,25 +12,25 @@ The dataset contains structured metadata for Netflix Movies and TV Shows, includ
 
 Content Type (Movie / TV Show)
 
-. Show ID
+* Show ID
 
-. Title
+* Title
 
-. Director
+* Director
 
-. Cast
+* Cast
 
-. Country of Production
+* Country of Production
 
-. Date Added
+* Date Added
 
-. Release Year
+* Release Year
 
-. Rating
+* Rating
 
-. Duration
+* Duration
 
-. Genres
+* Genres
 
 Description
 
