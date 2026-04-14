@@ -1,4 +1,5 @@
 🎬 Netflix Data Analysis using SQL
+
 1️⃣ Project Overview
 
 This project performs in-depth exploratory data analysis on the Netflix dataset using PostgreSQL. The objective is to extract structured, business-relevant insights from semi-structured content metadata using optimized and scalable SQL queries.
