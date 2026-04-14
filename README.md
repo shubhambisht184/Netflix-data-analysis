@@ -1,61 +1,65 @@
-🎬 Netflix SQL Data Analysis Project
-📌 Project Overview
+🎬 Netflix Data Analysis using SQL
+1️⃣ Project Overview
 
-The Netflix SQL Data Analysis Project is a comprehensive data exploration project built using PostgreSQL. It analyzes Netflix movies and TV shows to uncover insights related to content distribution, ratings, genres, countries, directors, and actors using advanced SQL queries.
+This project performs in-depth exploratory data analysis on the Netflix dataset using PostgreSQL. The objective is to extract structured, business-relevant insights from semi-structured content metadata using optimized and scalable SQL queries.
 
-This project demonstrates real-world data analysis using SQL techniques such as window functions, aggregations, ranking, filtering, and string/date operations.
+The focus is on analytical depth, data transformation, and production-style query writing rather than basic data retrieval.
 
-🔍 Business Questions Answered
+2️⃣ Dataset Overview
 
-This project answers key analytical questions like:
+The dataset contains structured metadata for Netflix Movies and TV Shows, including:
 
-🔢 Count of Movies vs TV Shows
-⭐ Most common ratings by content type
-🌍 Top 5 countries with the most Netflix content
-🎬 Longest movie available
-📅 Content added in the last 6 years
-🎥 Movies/Shows by specific directors
-📺 TV Shows with more than 5 seasons
-🎭 Genre-wise content distribution
-🇮🇳 Yearly content release trend for India
-🎞️ Documentary movies list
-👤 Content without directors
-🎬 Actor-based analysis (e.g., Salman Khan appearances)
-🏆 Top 10 actors in Indian productions
-🚨 Content categorized as Good/Bad based on keywords (kill/violence)
-
-🧾 Dataset Structure
-
-The dataset contains the following fields:
-
-Show ID
-Type (Movie/TV Show)
-Title
-Director
-Cast
-Country
-Date Added
-Release Year
-Rating
-Duration
+Content Type (Movie / TV Show)
+Title, Director, Cast
+Country of Production
+Date Added & Release Year
+Rating & Duration
 Genres
 Description
-⚙️ Tools & Technologies
-🐘 PostgreSQL
-🧠 SQL (Window Functions, CTEs, Aggregations, String Functions, Date Functions)
-💻 GitHub for version control
-📊 Key SQL Concepts Used
-GROUP BY & Aggregations
-RANK() Window Function
-Common Table Expressions (CTE)
-String functions (ILIKE, SPLIT_PART, STRING_TO_ARRAY, UNNEST)
-Date conversion & filtering
-Subqueries
-🛠️ How to Use
-Clone or download this repository.
-Import the dataset into PostgreSQL.
-Run the Netflix.solution.sql file.
-Execute queries to explore insights.
+
+It includes multi-valued categorical fields and inconsistent date formats, reflecting real-world data challenges.
+
+3️⃣ Technical Implementation
+Data Preparation
+Normalized multi-value columns using STRING_TO_ARRAY and UNNEST
+Standardized date formats with conditional parsing
+Handled NULL values and missing attributes
+Implemented keyword-based classification using CASE logic
+Advanced SQL Concepts Applied
+Aggregations & Grouped Analysis
+Window Functions (RANK() with PARTITION BY)
+Common Table Expressions (CTEs)
+Subqueries & Derived Tables
+String Manipulation Functions
+Date Transformations & Interval Filtering
+Conditional Categorization
+Analytical Modules
+Content distribution (Movies vs TV Shows)
+Rating dominance by content type
+Top content-producing countries
+Genre distribution modeling
+Director & Actor frequency analysis
+India-specific release trend analysis
+Keyword-driven content classification
+4️⃣ Results & Key Insights
+Identified dominant content type patterns
+Extracted rating trends across content categories
+Quantified top contributing countries
+Analyzed actor participation in Indian productions
+Measured year-over-year content growth
+Classified content for moderation-style insights
+5️⃣ Business & Analytical Impact
+
+This project demonstrates the ability to:
+
+Transform raw datasets into structured analytical insights
+Handle semi-structured relational data efficiently
+Apply advanced SQL techniques in practical scenarios
+Design scalable, production-style queries
+Generate business-focused analytical outputs
+
+It reflects strong database fundamentals, analytical reasoning, and industry-aligned SQL expertise.
+
 🙋‍♂️ Author
 
 Shubham Bisht
